@@ -1,0 +1,32 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32F746xx",
+    "mcu": "stm32f746zgt6",
+    "product_line": "STM32F746xx",
+    "variant": "extraVariants/nucleoF746",
+    "framework_extra_flags": {
+      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
+    }
+  },
+  "debug": {
+    "openocd_board": "st_nucleo_f7",
+    "openocd_target": "stm32f7x",
+    "svd_path": "STM32F746.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "myST Nucleo STM32F746ZGT",
+  "upload": {
+    "maximum_ram_size": 327680,
+    "maximum_size": 1048576,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/ST-Nucleo-F446ZE/",
+  "vendor": "ST"
+}

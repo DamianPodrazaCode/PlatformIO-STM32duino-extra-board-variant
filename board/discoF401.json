@@ -1,0 +1,32 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F4 -DSTM32F401xC -DSTM32F40_41xxx",
+    "mcu": "stm32f401vct6",
+    "product_line": "STM32F401xC",
+    "variant": "extraVariants/discoF401",
+    "framework_extra_flags": {
+      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
+    }
+  },
+  "debug": {
+    "openocd_board": "stm32f4discovery",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F401x.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "myST Disco STM32F401VCT",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 262144,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "url": "http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF259098",
+  "vendor": "ST"
+}

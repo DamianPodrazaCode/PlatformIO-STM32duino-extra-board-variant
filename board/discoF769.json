@@ -1,0 +1,32 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m7",
+    "extra_flags": "-DSTM32F7 -DSTM32F769xx",
+    "mcu": "stm32f769nih6",
+    "product_line": "STM32F769xx",
+    "variant": "extraVariants/discoF769",
+    "framework_extra_flags": {
+      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
+    }
+  },
+  "debug": {
+    "openocd_board": "stm32f7discovery",
+    "openocd_target": "stm32f7x",
+    "svd_path": "STM32F769.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "myST Disco STM32F769NIH",
+  "upload": {
+    "maximum_ram_size": 524288,
+    "maximum_size": 1048576,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "url": "http://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32f769idiscovery.html",
+  "vendor": "ST"
+}

@@ -1,0 +1,32 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F207xx",
+    "mcu": "stm32f207zgt6",
+    "product_line": "STM32F207xx",
+    "variant": "extraVariants/nucleoF207",
+    "framework_extra_flags": {
+      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
+    }
+  },
+  "debug": {
+
+    "openocd_target": "stm32f2x",
+    "svd_path": "STM32F20x.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "myST Nucleo STM32F207ZGT",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 1048576,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/ST-Nucleo-F207ZG/",
+  "vendor": "ST"
+}

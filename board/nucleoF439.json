@@ -1,0 +1,32 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F4 -DSTM32F439xx",
+    "mcu": "stm32f439zit6",
+    "product_line": "STM32F439xx",
+    "variant": "extraVariants/nucleoF439",
+    "framework_extra_flags": {
+      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
+    }
+  },
+  "debug": {
+    "openocd_board": "st_nucleo_f4",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F439x.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "myST Nucleo STM32F439ZIT",
+  "upload": {
+    "maximum_ram_size": 196608,
+    "maximum_size": 2097152,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/ST-Nucleo-F439ZI/",
+  "vendor": "ST"
+}

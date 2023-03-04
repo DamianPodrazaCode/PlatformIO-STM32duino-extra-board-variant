@@ -1,0 +1,32 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F4 -DSTM32F429xx",
+    "mcu": "stm32f429zit6",
+    "product_line": "STM32F429xx",
+    "variant": "extraVariants/discoF429",
+    "framework_extra_flags": {
+      "arduino": "-DCUSTOM_PERIPHERAL_PINS"
+    }
+  },
+  "debug": {
+    "openocd_board": "stm32f429discovery",
+    "openocd_target": "stm32f4x",
+    "svd_path": "STM32F429x.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "myST Disco STM32F429ZIT",
+  "upload": {
+    "maximum_ram_size": 196608,
+    "maximum_size": 2097152,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "url": "http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF259090",
+  "vendor": "ST"
+}
