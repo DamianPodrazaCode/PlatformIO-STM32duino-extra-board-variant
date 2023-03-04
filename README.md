@@ -32,7 +32,7 @@ Reszta plików jest kopiowana z wersji GENERIC:
 ### 2. Budowa pliku "[nazwa płytki].json" (np. "discoF429.json").
 #
 
-```json
+```java
 {
   "build": {
     "core": "stm32",  // tutaj jest rdzeń dla arduino żeby biblioteki wiedziały 
@@ -118,7 +118,7 @@ skąd się wzięła definicja  **ARDUINO_DISCOF429** pisałem wcześniej.
 #
 Na końcu pliku ale przed #endif w "variant_discoF429.cpp" , trzeba dodać funkcję:
 
-```c
+```c++
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -136,7 +136,7 @@ Całą tą funkcję można wygenerować za pomocą STMCubeMX, albo wziąć z rep
 
 Przykład do discoF429:
 
-```c
+```c++
 #ifdef __cplusplus
 extern "C" {
 #endif
