@@ -176,5 +176,17 @@ extern "C" {
 #
 
 ## W repo jest kilka płytek z których ja osobiście korzystam wystarczy je skopiować w odpowiednie miejsca wg. punktu 1.
-
 #
+
+Gotowe płytki:
+
+* Discovery kit for STM32F401 (32F401CDISCOVERY, STM32F401VCT6)
+* Discovery kit with STM32F407 (STM32F4DISCOVERY, STM32F407VGT6)
+* Discovery kit with STM32F429 (32F429IDISCOVERY, STM32F429ZIT6)
+* Discovery kit for STM32F7 Series with STM32F746NG (32F746GDISCOVERY)
+* Discovery kit with STM32F769N (32F769IDISCOVERY)
+* NUCLEO-F207ZG
+* NUCLEO-F411RE
+* NUCLEO-F439ZI
+* NUCLEO-F746ZG
+
