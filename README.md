@@ -176,7 +176,6 @@ extern "C" {
 #
 
 ## W repo jest kilka płytek z których ja osobiście korzystam wystarczy je skopiować w odpowiednie miejsca wg. punktu 1.
-#
 
 Gotowe płytki:
 
