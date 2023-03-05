@@ -1,5 +1,5 @@
 # PlatformIO-STM32duino-extra-board-variant
-## Tworzenie własnych variantów płytek w STM32duino dla PlatformIO:
+## Tworzenie własnych wariantów płytek w STM32duino dla PlatformIO:
 
 ### 1. Są dwa miejsca do których trzeba stworzyć komplet plików aby pojawiła się nowa opcja płytki:
 #
