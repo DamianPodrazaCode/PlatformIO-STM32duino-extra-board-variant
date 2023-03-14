@@ -16,7 +16,9 @@
     "svd_path": "STM32F746.svd"
   },
   "frameworks": [
-    "arduino"
+    "arduino",
+    "cmsis",
+    "stm32cube"
   ],
   "name": "myST Disco STM32F746NGH",
   "upload": {

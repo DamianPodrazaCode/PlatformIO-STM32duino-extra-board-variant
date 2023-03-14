@@ -16,7 +16,9 @@
     "svd_path": "STM32F439x.svd"
   },
   "frameworks": [
-    "arduino"
+    "arduino",
+    "cmsis",
+    "stm32cube"
   ],
   "name": "myST Nucleo STM32F439ZIT",
   "upload": {

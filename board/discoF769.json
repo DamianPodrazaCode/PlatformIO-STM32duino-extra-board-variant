@@ -16,7 +16,9 @@
     "svd_path": "STM32F769.svd"
   },
   "frameworks": [
-    "arduino"
+    "arduino",
+    "cmsis",
+    "stm32cube"
   ],
   "name": "myST Disco STM32F769NIH",
   "upload": {
